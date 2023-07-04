@@ -1,5 +1,5 @@
 <template >
-    <div class="pokemonCard shadow" :class="color">
+    <div class="pokemonCard" :class="color">
         <div class="img-container">
             <img :src="image" :alt="name">
         </div>
@@ -28,14 +28,16 @@ export default {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.8);
 }
 
 .img-container {
 
     img {
-        border-radius: 50%;
+        border-radius: 10px;
         overflow: hidden;
         object-fit: cover;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.8);
 
         width: 150px;
         height: 150px;

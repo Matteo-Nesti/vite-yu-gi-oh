@@ -22,6 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .grayBg {
+    border-radius: 10px;
     background-color: #666a6f;
 }
 </style>
